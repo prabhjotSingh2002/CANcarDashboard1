@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v23be2p14\c\ARM kiel\canProtocol\canDash.uvproj
+Project File Date:  02/14/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling mainNodeB.c...
+mainNodeB.c(82): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+mainNodeB.c(93): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+mainNodeB.c(169): warning:  #1-D: last line of file ends without a newline
+compiling canInterrupt.c...
+canInterrupt.c(30): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5112 RO-data=92 RW-data=64 ZI-data=1272  
+"canDash.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling mainNodeB.c...
+mainNodeB.c(82): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+mainNodeB.c(93): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+mainNodeB.c(169): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5384 RO-data=92 RW-data=64 ZI-data=1272  
+FromELF: creating hex file...
+"RXnode.axf" - 0 Error(s), 3 Warning(s).

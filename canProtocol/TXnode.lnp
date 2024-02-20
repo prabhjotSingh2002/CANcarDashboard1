@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "mainnodea.o" "timer.o" "uart0driver.o" "lcddriver.o" "adcdriver.o" "candriver.o" "externalinterrupt2.o" "externalinterrupt1.o" "externalinterrupt0.o" --strict --scatter "TXnode.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\TXnode.map" -o "TXnode.axf"

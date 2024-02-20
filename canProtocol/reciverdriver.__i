@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "reciverdriver.o" --omf_browse "reciverdriver.crf" --depend "reciverdriver.d" "reciverdriver.c"

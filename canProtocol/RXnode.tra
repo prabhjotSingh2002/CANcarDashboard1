@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'RXnode.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"mainnodea.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"uart0driver.o"'
+### List of Objects: adding '"lcddriver.o"'
+### List of Objects: adding '"adcdriver.o"'
+### List of Objects: adding '"candriver.o"'
+### List of Objects: adding '"externalinterrupt2.o"'
+### List of Objects: adding '"externalinterrupt1.o"'
+### List of Objects: adding '"externalinterrupt0.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "mainnodea.o" "timer.o" "uart0driver.o" "lcddriver.o" "adcdriver.o" "candriver.o" "externalinterrupt2.o" "externalinterrupt1.o" "externalinterrupt0.o" --strict --scatter "RXnode.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RXnode.map" -o "RXnode.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RXnode.axf'
+### ADS-LD Command File: 'RXnode.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RXnode.lnp', Handle=0x00000164
+### Writing '.lnp' file
+### ADS-LD Command file 'RXnode.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

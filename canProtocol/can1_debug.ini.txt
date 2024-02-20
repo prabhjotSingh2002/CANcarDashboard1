@@ -1,0 +1,31 @@
+
+DEFINE BUTTON "Button1","sendmsg(1)"
+DEFINE BUTTON "Button2","sendmsg(2)"
+DEFINE BUTTON "Button3","sendmsg(3)"
+
+func void sendmsg(unsigned char i)
+{
+	switch(i)
+	{
+		case 1:CAN1ID=0X1FA;
+		       CAN1B0=0X11;//1ST Byte data
+		       CAN1B1=0X22;//2ND BYTE DATA
+                       CAN1L=1;//DLC
+                       CAN1IN=1;//SEND DATA FRAME
+		       break;
+
+                 case 2:CAN1ID=0X123;
+		       CAN1B0=0XAA;//1ST Byte data
+		  //     CAN1B1=0XBB;//2ND BYTE DATA
+		//	CAN1B2=0Xcc;//3ST Byte data
+		  //     CAN1B3=0XDD;//4TH BYTE DATA
+                       CAN1L=1;//DLC
+                       CAN1IN=1;//SEND DATA FRAME
+		       break;
+                 case 3:CAN1ID=0X179;
+                       CAN1L=6;//D
+                       CAN1IN=3;//SEND remote FRAME
+		       break;
+	}
+
+}
